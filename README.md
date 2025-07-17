@@ -17,8 +17,21 @@ This setup help with:
 - using strong model only when really needed
 - changing or upgrading one part without breaking rest
 
+Here’s a polished and clearer version of your README snippet:
 
+---
 
+## How to Run the Code
 
+1. Create a `.env` file containing API keys for:
 
+   * OpenAI
+   * Cartesia
+   * Deepgram
+   * LiveKit
 
+2. Run the script using:
+
+```bash
+python3 main.py dev
+```
